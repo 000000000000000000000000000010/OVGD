@@ -123,7 +123,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -306,7 +306,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fbe2f7fdd8f13bb6",
+  "active": "211a42b248a9d6d5",
   "lastOpenFiles": [
     "00_DoubleBlank/Resources/Gordo Cheat Sheet.md",
     "00_DoubleBlank/000_Personal Dump.md",
