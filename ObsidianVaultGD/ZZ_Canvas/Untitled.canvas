@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{
+			"id":"ee478e06e1ec1950",
+			"type":"text",
+			"text":"```mermaid\nclassDiagram\ndirection LR\n\nclass BP_STTBasePawn {\n  <<Abstract Blueprint Pawn>>\n  + WeaponController\n  + CameraComponent Camera\n  + MotionControllerComponent MC_Left\n  + MotionControllerComponent MC_Right\n  + InitializePawn()\n  # SmoothTracker(SceneComponent Tracker, MotionControllerComponent MotionController)\n  # IA_WeaponTriggerInput(float ActionValue)\n  # IA_WeaponSlideInput(float ActionValue)\n  # IA_WeaponMagazineReleaseInput(float ActionValue)\n}\n\nclass BPC_WeaponController {\n  <<SceneComponent>>\n  + DefaultWeaponClass\n  - WeaponHandler\n  + OnWeaponShotFired()\n  + OnWeaponHit(TargetInfo)\n  - InitializeWeapon()\n  # SpawnAndAttachWeapon()\n  # BindWeaponDispatchers()\n  + HandleTriggerInput(float ActionValue)\n  + HandleSlideInput(float ActionValue)\n  + SlideReleaseInput()\n  + HandleMagazineReleaseInput(float ActionValue)\n}\n\nclass BPI_WeaponHandling {\n  <<Interface>>\n  + HandleTriggerInput(float ActionValue)\n  + HandleSlideInput(float ActionValue)\n  + SlideReleaseInput()\n  + HandleMagazineReleaseInput(float ActionValue)\n}\n\nclass DA_WeaponData {\n  <<Data Asset>>\n  + Range\n  + ShootAnimClass\n  + MagazineInSound\n  + MagazineOutSound\n  + SlideMovementSound\n  + HpReturnSlider\n  + ShootSound\n  + DryShoot\n  + BackSlider\n  + SoundWhipe\n  + CurveCustomTimeLine\n  + TL_Duration\n  + WeaponMesh\n  + WeaponAnimBPClass\n  + HandMesh\n  + HandAnimBPClass\n  + BulletClass\n  + CasingClass\n  + TutorialMagazineMesh\n  + MuzzleFxSystem\n  + TracerFxSystem\n  + BulletHoleDecalMaterial\n  + FastReload\n  + ReloadState\n}\n\nclass BP_BaseWeapon {\n  <<Abstract Blueprint Actor>>\n  - SlideBackThreshold\n  - TriggerPullThreshold\n}\n\nclass SKM_Weapon {\n  <<SkeletalMeshComponent>>\n  + SetSkeletalMeshAsset()\n  + SetAnimInstanceClass()\n}\n\nclass BP_SigSauerP320 {\n  <<Blueprint Actor>>\n}\n\nclass BPC_AmmoManager {\n  <<ActorComponent>>\n  - bAreShotRequestsAvailable\n  - bIsMagazineInserted\n  - bHasRoundChambered\n  - bIsSpentCasingInChamber\n  - bIsSlideLockedBack\n  - CurrentAmmo\n  + RequestShot()\n  + IsMagazineEmpty()\n  + CanFeedRoundToChamber()\n  + FeedRoundToChamber()\n  + MarkSpentCasingEjected()\n  + MarkSlideLockedBack()\n  + SetShotRequestsAvailable()\n  + TryInsertMagazine()\n  + TryEjectMagazine()\n  + NotifySlideMovedBack()\n}\n\nclass S_MagazineAmmoState {\n  <<Struct>>\n  + CurrentRounds\n  + MaxRounds\n  + bHasInfiniteRounds\n}\n\nclass E_ShotRequestResult {\n  <<Enum>>\n  Fired\n  Rejected_NoRoundChambered\n  Rejected_SlideLockedBack\n  Rejected_SpentCasingInChamber\n  Rejected_NotAvailable\n}\n\nclass E_SlideBackResult {\n  <<Enum>>\n  NoChamberContent\n  EjectedLiveRound\n  EjectedSpentCasing\n  AlreadyBack\n  NotAvailable\n}\n\nclass BPC_WeaponAnimationBridge\nclass BPC_WeaponHandInteraction\nclass BPC_WeaponFX\nclass BPC_WeaponTutorialPreview\nclass GameDirector\nclass BP_ScoreVisor\nclass BP_HostageTaking\nclass ObjectiveManager\n\nBP_STTBasePawn --> BPC_WeaponController\nBPC_WeaponController --> BP_BaseWeapon\nBPC_WeaponController --> BPI_WeaponHandling\n\nBPI_WeaponHandling <|.. BP_BaseWeapon\nBP_BaseWeapon <|-- BP_SigSauerP320\n\nBP_BaseWeapon --> DA_WeaponData\nBP_BaseWeapon --> SKM_Weapon\nBP_BaseWeapon --> BPC_AmmoManager\nBP_BaseWeapon --> BPC_WeaponAnimationBridge\nBP_BaseWeapon --> BPC_WeaponHandInteraction\nBP_BaseWeapon --> BPC_WeaponFX\nBP_BaseWeapon --> BPC_WeaponTutorialPreview\n\nGameDirector ..> BPC_WeaponController\nBP_ScoreVisor ..> GameDirector\nBP_HostageTaking ..> GameDirector\nObjectiveManager ..> GameDirector\n```",
+			"styleAttributes":{},
+			"x":-260,
+			"y":-140,
+			"width":460,
+			"height":380
+		}
+	],
+	"edges":[],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

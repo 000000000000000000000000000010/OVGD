@@ -1,0 +1,30 @@
+{
+  "items": [
+    {
+      "type": "folder",
+      "ctime": 1784814195316,
+      "path": "01_DTS/MISC/STUDIO_OS"
+    },
+    {
+      "type": "file",
+      "ctime": 1784844279208,
+      "path": "01_DTS/MISC/STUDIO_OS/Studio OS 1.0 CACA.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1786380153578,
+      "path": "01_DTS/GDDS/GDD_STRUCTURE.md",
+      "title": ""
+    },
+    {
+      "type": "file",
+      "ctime": 1786631577016,
+      "path": "STUDIO OS/00_Studio OS HOME_0.1.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1786631864251,
+      "path": "STUDIO OS/TESTING/Testing all Resources.md"
+    }
+  ]
+}

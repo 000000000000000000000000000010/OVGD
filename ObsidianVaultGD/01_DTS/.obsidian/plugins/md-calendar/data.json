@@ -1,0 +1,20 @@
+{
+  "firstView": "month",
+  "firstViewMobile": "agenda",
+  "dayStart": 7,
+  "dayEnd": 22,
+  "firstDayOfWeek": 1,
+  "defaultDurationMin": 60,
+  "snapMin": 30,
+  "multiCalendar": false,
+  "calendarNotePath": "STUDIO OS/00_Studio OS HOME_0.1.md",
+  "completionSound": true,
+  "monthChips": 4,
+  "statusBar": true,
+  "fullWidth": false,
+  "viewMemory": {
+    "STUDIO OS/00_Studio OS HOME_0.1.md::cujtge3q": {
+      "view": "agenda"
+    }
+  }
+}

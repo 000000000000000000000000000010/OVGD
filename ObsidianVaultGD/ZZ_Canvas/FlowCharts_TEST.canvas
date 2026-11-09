@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"2a51307828c6a54e","type":"group","x":600,"y":-960,"width":220,"height":190,"label":"Menu + Briefing"},
+		{"id":"c7701fed7ddb95ac","type":"text","text":"# **INICO**\n\n","x":-257,"y":-894,"width":177,"height":58},
+		{"id":"69333764a0a1cea9","type":"text","text":"**Briefing**","x":620,"y":-849,"width":180,"height":59},
+		{"id":"fa33a5d86fc22666","type":"text","text":"Roll de alerones","x":620,"y":-690,"width":180,"height":58},
+		{"id":"c0734382b33ba76a","type":"text","text":"Ocho flojo","x":620,"y":-600,"width":180,"height":58},
+		{"id":"3060f31820c0d83a","type":"text","text":"**Cabina Simulación**","x":930,"y":-894,"width":180,"height":58},
+		{"id":"27c5bef75c6e0755","type":"text","text":"**Splash DTS**","x":7,"y":-894,"width":172,"height":58},
+		{"id":"1e2d30fa15bb090a","type":"text","text":"**Splash PILOTLAB**","x":266,"y":-894,"width":172,"height":58},
+		{"id":"893c37a43a263b59","type":"text","text":"**Menu principal**","x":620,"y":-940,"width":180,"height":58},
+		{"id":"5befd8cd8a70946d","type":"text","text":"Tutorial","x":620,"y":-1320,"width":180,"height":58},
+		{"id":"504f095454c2adce","type":"text","text":"Salir","x":620,"y":-1230,"width":180,"height":58},
+		{"id":"abc6cfb03c2d1bb9","type":"text","text":"Inicio Briefing","x":620,"y":-1140,"width":180,"height":58}
+	],
+	"edges":[
+		{"id":"dafc564dd9ad9a92","fromNode":"c7701fed7ddb95ac","fromSide":"right","toNode":"27c5bef75c6e0755","toSide":"left"},
+		{"id":"a5ea720297242023","fromNode":"27c5bef75c6e0755","fromSide":"right","toNode":"1e2d30fa15bb090a","toSide":"left"},
+		{"id":"831bf5332b2bcb0f","fromNode":"fa33a5d86fc22666","fromSide":"right","toNode":"3060f31820c0d83a","toSide":"left"},
+		{"id":"60e394ca6fda6131","fromNode":"69333764a0a1cea9","fromSide":"left","toNode":"fa33a5d86fc22666","toSide":"left"},
+		{"id":"ad578e06645b565e","fromNode":"69333764a0a1cea9","fromSide":"left","toNode":"c0734382b33ba76a","toSide":"left"},
+		{"id":"21832aa656a3ac95","fromNode":"1e2d30fa15bb090a","fromSide":"right","toNode":"2a51307828c6a54e","toSide":"left"},
+		{"id":"937593f18fec4a2b","fromNode":"893c37a43a263b59","fromSide":"left","toNode":"abc6cfb03c2d1bb9","toSide":"left"},
+		{"id":"47bfb1179375527f","fromNode":"893c37a43a263b59","fromSide":"left","toNode":"504f095454c2adce","toSide":"left"},
+		{"id":"572285487fe809da","fromNode":"893c37a43a263b59","fromSide":"left","toNode":"5befd8cd8a70946d","toSide":"left"},
+		{"id":"4ba35d73d0820319","fromNode":"893c37a43a263b59","fromSide":"bottom","toNode":"69333764a0a1cea9","toSide":"top"}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

@@ -1,0 +1,35 @@
+{
+  "settings": {
+    "bulletType": "none",
+    "indentSize": 4,
+    "updateDelay": 2000,
+    "tocTitle": ".",
+    "tocTitleLevel": 1,
+    "excludedHeadingLevels": [],
+    "excludedHeadingText": [],
+    "excludedChars": [
+      "*",
+      "_",
+      "`",
+      "==",
+      "~~",
+      "{",
+      "}",
+      "#",
+      "\\"
+    ]
+  },
+  "tocBlockCollapseState": {
+    "01_DTS/RESOURCES/TEMPLATES/Biblia de arte_prop.md": false,
+    "STUDIO OS/00_Studio OS HOME_0.1.md": false,
+    "STUDIO OS/04 Projects/4.1 STT/Vision/Vision.md": true
+  },
+  "tocFoldState": {
+    "01_DTS/RESOURCES/TEMPLATES/Biblia de arte_prop.md::1::Biblia de arte_prop#1.- Pilares de Arte": false,
+    "01_DTS/RESOURCES/TEMPLATES/Biblia de arte_prop.md::2::Biblia de arte_prop#1.1.- Brutalismo": false,
+    "STUDIO OS/00_Studio OS HOME_0.1.md::1::00_Studio OS HOME_0.1#1.0.- Library": false,
+    "STUDIO OS/00_Studio OS HOME_0.1.md::2::00_Studio OS HOME_0.1#2.0.- Global systems": false,
+    "STUDIO OS/00_Studio OS HOME_0.1.md::3::00_Studio OS HOME_0.1#4.0.- Projects": false,
+    "STUDIO OS/00_Studio OS HOME_0.1.md::4::00_Studio OS HOME_0.1#4.1.- STT": false
+  }
+}
