@@ -16,5 +16,7 @@
   "obsidian-tasks-plugin",
   "obsidian-charts",
   "meld-encrypt",
-  "obsidian-git"
+  "obsidian-git",
+  "github-sync",
+  "git-obsi-sync"
 ]
