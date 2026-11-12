@@ -133,7 +133,8 @@
     "type": "split",
     "children": [],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "21e71d98f9c5c88a",

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "ObsidianVaultGD/01_DTS/00_STUDIO OS/4.0.- Projects/4.4.- ESCOTILLÓN/GDD_ESCOTILLÓN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "GDD_ESCOTILLÓN"
             }
           }
         ]
@@ -179,6 +179,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "gitsync-portal:Open GitSync Portal": false,
       "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -189,6 +190,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "80839eab25b51f18",
-  "lastOpenFiles": []
+  "active": "442743926d938ae9",
+  "lastOpenFiles": [
+    "ObsidianVaultGD/00_DoubleBlank/000_Personal Dump.md",
+    "ObsidianVaultGD/00_DoubleBlank/000_Notas Dump etc.md",
+    "ObsidianVaultGD/README.md"
+  ]
 }
