@@ -7,7 +7,7 @@
   "lineHeight": 1.7,
   "contentWidth": 900,
   "paragraphSpacing": 1,
-  "dashboardScrollTop": 0,
+  "dashboardScrollTop": 2,
   "quizProgress": {},
   "syncRepository": "000000000000000000000000000010/OVGD",
   "syncBranch": "main",

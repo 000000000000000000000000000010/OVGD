@@ -78,8 +78,19 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "3c4a9b9e1985cdbd",
+            "type": "leaf",
+            "state": {
+              "type": "gitsync-portal-dashboard",
+              "state": {},
+              "icon": "cloud-cog",
+              "title": "GitSync Portal"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -190,7 +201,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "442743926d938ae9",
+  "active": "3c4a9b9e1985cdbd",
   "lastOpenFiles": [
     "ObsidianVaultGD/00_DoubleBlank/000_Personal Dump.md",
     "ObsidianVaultGD/00_DoubleBlank/000_Notas Dump etc.md",
